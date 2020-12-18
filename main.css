@@ -1,0 +1,207 @@
+/*================================================
+  Google Fonts -> Montserrat Regular y Bold
+================================================*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/*================================================
+  GENERAL STYLES 
+================================================*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.75rem;
+  color: #211138;
+  width: 100vw;
+  height: 100vh;
+}
+
+/*================================================
+  DIV STYLE CONTACTS 
+================================================*/
+#contacts {
+  width: 25%;
+  height: 100%;
+  border: 0.125rem solid #F4F3F5;
+}
+
+  /* Size of each contact and search */
+  .size {
+    width: 100%;
+    height: 4.2665rem;
+    border: 0.0625rem solid #F4F3F5;
+  }
+
+  /* Search styles */
+  #search-input {
+    width: 18.1421rem;
+    height: 2.6665rem;
+    margin: 0.7999rem 0 0.7999rem 0.8003rem;
+    border: 0; 
+    border-bottom: 0.1875rem solid;
+    border-color: transparent;
+    background-color: #F4F3F5;
+    padding-left: 1.2806rem;
+  }
+
+  #search-input::placeholder {
+    color: #00000029;
+  }
+
+  #search-input:focus {
+    outline: none;
+    border-bottom-color: #6200EA;
+  }
+
+  #search-input:hover {
+    transition: all 0.2s ease-in-out;
+    background-color: #00000029;
+  }
+
+  #search-button {
+    width: 1.6007rem;
+    height: 2.6665rem;
+    border: 0;
+    cursor: pointer;
+    color: #00000029;
+    background-color: #F4F3F5;
+  }
+
+  #search-button:focus {
+    outline: none;
+  }
+
+  #search-button:active {
+    background-color: #000;
+    color: #FFF;
+  }
+
+  a {
+    text-decoration: none;
+    display: block;
+  }
+
+  /* Contact image size */
+  a img {
+    width: 2.6679rem;
+    height: 2.6679rem;
+    border-radius: 50%;
+    margin: 0.799rem 0 0.799rem 0.8003rem;
+    float: left;
+  }
+
+  /* Contact name style */
+  a h2 {
+    color: #6200EA;
+    letter-spacing: 0.15rem;
+    font-weight: bold;
+    margin: 1.0666rem 0 0 4.2687rem; 
+  }
+
+  /* Contact message style */
+  a p {
+    color: #211138;
+    font-size: 0.875rem;
+    margin: 0.2666rem 0 0 4.2687rem;
+  }
+
+  /* Contact hover style */
+  .contact:hover {
+    border-left: 0.3125rem;
+    border-left-style: solid;
+    border-left-color: #6200EA;
+  }
+
+  /* New contact button */
+  #add-new-contact {
+    width: 19.7429rem;
+    height: 2.6665rem;
+    color: #6200EA;
+    font-weight: bold;
+    letter-spacing: 0.15rem;
+    text-align: center;
+    border: 0.125rem solid #6200EA;
+    border-radius: 1.5rem;
+    margin: 0.8003rem;
+    padding: 0.9599rem;
+  }
+
+  #add-new-contact:hover {
+    transition: all 0.3s ease-in-out;
+    background-color: #6200EA;
+    color: #FFF;
+  }
+
+/*================================================
+  DIV STYLE CHAT
+================================================*/
+#chat {
+  width: 75%;
+  height: 100%;
+  border: 0.125rem solid #F4F3F5;
+}
+
+  /* Chat div content */
+  /* Header style */
+  #header {
+    background-color: #6200EA;
+    width: 100%;
+    height: 4.2665rem;
+    position: relative;
+  }
+
+  /* Contact name */
+  #contact-name {
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: bold;
+    position: absolute;
+    top: 1.4932rem;
+    left: 1.6007rem;
+  }
+
+  /* Logo */
+  #header-image {
+    width: 9.6046rem;
+    height: 2.6665rem;
+    position: absolute;
+    top: 0.7999rem;
+    left: 27.2132rem;
+  }
+
+  /* User name */
+  #user-name {
+    font-weight: bold;
+    letter-spacing: 0.15rem;
+    color: #FFF;
+    position: absolute;
+    top: 1.7599rem;
+    left: 52.9325rem;
+  }
+
+  /* User profile photo */
+  #user-profile-photo {
+    width: 2.1343rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 0.8rem;
+    left: 60.8296rem;
+  }
+
+  /* Messages area */
+  #messages {
+    background-color: #F4F3F5;
+    width: 100%;
+  }
+
+
+
+
+
+
+
+
+
