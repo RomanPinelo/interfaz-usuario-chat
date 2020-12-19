@@ -279,13 +279,13 @@ body {
   textarea {
     background-color: #F4F3F5;
     width: 53.4262rem;
-    height: 4rem;
+    height: 2.6679rem;
     border: 0;
     border-bottom: 0.1875rem solid;
     border-color: transparent;
     padding-top: 0.8533rem;
     padding-left: 1.2806rem;
-    margin: 0.8rem 0 0.8rem 1.0671rem;
+    margin: 0.4rem 0 0.4rem 1.0671rem;
   }
 
   textarea::placeholder {
@@ -308,11 +308,11 @@ body {
   .send-message-options {
     display: flex;
     background-color: #F4F3F5;
-    height: 4rem;
+    height: 2.6679rem;
     color: #B2ACBA;
     align-items: center;
     padding: 0 0.5rem;
-    margin: 0.8rem 0;
+    margin: 0.4rem 0;
   }
 
   .send-message-options:hover {
@@ -329,7 +329,7 @@ body {
     border-radius: 50%;
     color: #FFF;
     padding: 0.5rem 0 0 0.5rem;
-    margin: 0.8rem 0 0 0.5335rem;
+    margin: 0.4rem 0 0 0.5335rem;
     position: relative;
     overflow: hidden;
     transition: 0.2s;
